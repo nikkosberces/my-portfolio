@@ -1,0 +1,328 @@
+/* Styles for cellphones go here */
+@media only screen and (max-width: 767px) {
+  .menu {
+    position: static;
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .show-menu .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 0;
+  }
+
+  .menu a {
+    padding: 0.5rem;
+  }
+
+  .menu a:hover {
+    background-color: #ccc;
+    border-radius: 0;
+  }
+}
+
+/* Profile Photo */
+@media only screen and (max-width: 480px) {
+  .profile-pic img {
+    width: 250px;
+    height: 250px;
+  }
+  .profile-pic p {
+    font-size: 14px;
+  }
+}
+
+/* About me */
+@media only screen and (max-width: 480px) {
+  .about h2 {
+    font-size: 20px;
+  }
+
+  .about .message {
+    font-size: 14px;
+  }
+
+  .experience-section {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .experience h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .experience li {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+}
+
+/* Download CV */
+li a[href$=".pdf"][download] {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+li a[href$=".pdf"][download]::before {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+/* Contact me */
+@media only screen and (max-width: 480px) {
+  .contact-me {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .contact-me h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    gap: 10px;
+  }
+
+  label {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+
+  button[type="submit"] {
+    padding: 4px 18px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+}
+
+/* Projects */
+
+@media only screen and (max-width: 480px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .projects-list {
+    gap: 20px;
+  }
+
+  .projects-list li a {
+    padding: 40px;
+    font-size: 14px;
+  }
+}
+
+/* Footer */
+@media (max-width: 767px) {
+  footer {
+    padding: 20px;
+  }
+
+  .social-icons {
+    flex-direction: column;
+  }
+
+  .social-icons a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-number,
+  .gmail {
+    margin-right: 0;
+    font-size: 14px;
+  }
+}
+
+/* Styles for Tablet  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+
+  .menu li {
+    margin: 1rem 0;
+  }
+
+  .menu a {
+    display: block;
+    padding: 1rem;
+  }
+
+  .menu a:hover {
+    background-color: #ccc;
+  }
+
+  .show-menu {
+    display: flex;
+  }
+}
+
+/* Profile Photo */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .profile-pic img {
+    width: 300px;
+    height: 300px;
+  }
+  .profile-pic p {
+    font-size: 16px;
+  }
+}
+
+/* About me */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .about h2 {
+    font-size: 24px;
+  }
+
+  .about .message {
+    font-size: 16px;
+  }
+
+  .experience-section {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .experience li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Download CV */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  li a[href$=".pdf"][download] {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+
+  li a[href$=".pdf"][download]::before {
+    font-size: 0.9em;
+    margin-right: 4px;
+  }
+}
+
+/* Contact me */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contact-me {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .contact-me h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  form {
+    gap: 15px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+
+  button[type="submit"] {
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+}
+
+/* Projects */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .projects {
+    padding: 20px;
+    color: #fff;
+  }
+
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .projects-list a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #424040;
+    margin-bottom: 10px;
+  }
+
+  .projects-list p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+
+  .projects-list .rps {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rheDZsV32VBEn7PlTr7CBYJdmMj3zX081A&usqp=CAU);
+  }
+
+  .projects-list li {
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+  }
+}

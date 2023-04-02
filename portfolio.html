@@ -13,11 +13,11 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <header class="home" id="home">
+    <header class="home">
       <div class="logo">NSB</div>
-      <button class="hamburger">&#9776;</button>
+      <button class="hamburger" id="menu-btn">&#9776;</button>
       <nav class="menu">
-        <ul>
+        <ul class="navbar">
           <li class="menuitem"><a href="#">Home</a></li>
           <li class="menuitem"><a href="#about-me">About Me</a></li>
           <li class="menuitem"><a href="#projects">Projects</a></li>
@@ -38,11 +38,11 @@
 		<p> 
       <div class="name">
       Hi, I'm Nikko Pebrero Berces.</div>
-      Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, 
-      and debugging processes.  
-      Proficient in an assortment of technologies, 
-      including JavaScript, CSS, HTML, and Microsoft SQL Server. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
-
+      <div class="message"> Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, 
+         and debugging processes.  
+         Proficient in an assortment of technologies, 
+         including JavaScript, CSS, HTML, and Microsoft SQL Server. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
+      </div>
     </p>
 	</div>
 
@@ -59,8 +59,8 @@
     <section class="projects" id="projects">
       <h2>Projects</h2>
       <ul class="projects-list">
-        <li class="rps"> <button class="play-game">Play Game</button></li>
-        <li><a href=""> </a> Calculator</li>
+        <li class="rps"></li>
+        <li class="calculator"><a href=""> </a></li>
         <li><a href="">Project 3</a> </li>
         <li><a href="">Project 4</a> </li>
         <li><a href="">Project 5</a> </li>
@@ -92,12 +92,14 @@
 
     <footer>
       <div class="social-icons">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-google"></i></a>
+        <a href="https://www.facebook.com/nikkopebrero.berces/" target="
+        "><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/i/flow/single_sign_on" target="_blank"><i class="fa fa-instagram"></i></a>
+        <div class="contact-number" id="info">Contact: 09704693252</div>
+        <div class="gmail" id="info">Email: nikkosberces@gmail.com</div>
       </div>
-      <p>&copy; 2023 @Nikko . All Rights Reserved.</p>
+      <p class="footer">&copy; 2023 @Nikko . All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
     </body>
 </html>
