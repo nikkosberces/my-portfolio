@@ -16,11 +16,16 @@ body {
 
 /* Header Section */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
   background-color: #333;
+  color: white;
+  padding: 10px 20px;
 }
 
 .logo {
@@ -91,7 +96,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 120px;
 }
 
 .profile-pic img {
@@ -120,6 +125,15 @@ nav a:hover {
 }
 
 /* About me Section */
+
+.about {
+  background-color: #f2f2f2;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .name {
   font-weight: bold;
   color: #ff5a5f;
@@ -128,15 +142,7 @@ nav a:hover {
   letter-spacing: 2px;
 }
 
-.about-section {
-  background-color: #f2f2f2;
-  padding: 30px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.about-section h2 {
+.about h2 {
   font-size: 30px;
   font-weight: 700;
   color: #333;
@@ -145,14 +151,14 @@ nav a:hover {
   letter-spacing: 2px;
 }
 
-.about-section p {
+.about p {
   font-size: 20px;
   line-height: 1.8;
   color: #666;
   margin-top: 20px;
 }
 
-.experience-section {
+.experience {
   background-color: #d9d9d9;
   padding: 40px;
   margin: 20px;
@@ -160,7 +166,7 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.experience-section h2 {
+.experience h2 {
   font-size: 30px;
   font-weight: 700;
   color: #333;
@@ -169,13 +175,13 @@ nav a:hover {
   letter-spacing: 2px;
 }
 
-.experience-section ul {
+.experience ul {
   list-style-type: none;
   padding-left: 0;
   margin-top: 20px;
 }
 
-.experience-section li {
+.experience li {
   font-size: 20px;
   line-height: 1.5;
   color: #666;
@@ -415,12 +421,12 @@ footer p {
     margin: 10px;
   }
 
-  .experience-section h2 {
+  .experience h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
 
-  .experience-section li {
+  .experience li {
     font-size: 16px;
     margin-bottom: 5px;
   }

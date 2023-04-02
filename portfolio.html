@@ -13,13 +13,13 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <header class="home">
+    <header class="home" id="home">
       <div class="logo">NSB</div>
       <button class="hamburger">&#9776;</button>
       <nav class="menu">
         <ul>
-          <li class="menuitem"><a href="#home">Home</a></li>
-          <li class="menuitem"><a href="#about me">About Me</a></li>
+          <li class="menuitem"><a href="#">Home</a></li>
+          <li class="menuitem"><a href="#about-me">About Me</a></li>
           <li class="menuitem"><a href="#projects">Projects</a></li>
           <li class="menuitem"><a href="path/to/resume.pdf" download>Download CV</a></li>
           <li class="menuitem"><a href="#contact-me">Contact Me</a></li>
@@ -33,7 +33,7 @@
       <p class="profession">"Full Stock Web Developer from province of Albay"</p>
     </section>
 
- <section class="about-section">
+ <section class="about" id="about-me">
 		<h2>About Me</h2>
 		<p> 
       <div class="name">
@@ -46,7 +46,7 @@
     </p>
 	</div>
 
-	<div class="experience-section">
+	<div class="experience">
 		<h2>Experience</h2>
 		<ul class="job-list">
       <li>Current student of KODEGO (present)</li>
@@ -56,7 +56,7 @@
     </ul>
   </section>
     
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2>Projects</h2>
       <ul class="projects-list">
         <li class="rps"> <button class="play-game">Play Game</button></li>
@@ -70,7 +70,7 @@
       </ul>
     </section>
 
-    <section class="contact-me">
+    <section class="contact-me" id="contact-me">
       <h2>Contact me</h2>
       <form action="submit-form.php" method="POST">
         <label for="name">Name:</label>
